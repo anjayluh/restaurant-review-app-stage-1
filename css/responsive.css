@@ -47,3 +47,22 @@
         padding: 0px 10px 25px;
     }
 }
+
+@media only screen and (min-width: 400px) and (max-width: 1712px) {
+    #restaurants-list li {
+        width: 80%;
+        font-size: 16pt;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    #restaurants-list li {
+        width: 100%;
+    }
+    body,
+    td,
+    th,
+    p {
+        font-size: 10pt!important;
+    }
+}
